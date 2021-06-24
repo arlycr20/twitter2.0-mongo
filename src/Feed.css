@@ -1,0 +1,30 @@
+.feed {
+  flex:content;
+  border-right: 1px solid;
+  border-color: rgb(9, 44, 67) !important;
+  color: rgb(202, 202, 202)!important;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  max-width: 2000px;
+  margin: 0;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-right: 1px solid;
+  border-color: rgb(9, 44, 67) !important;
+  padding: 15px 20px;
+  background-color: rgb(5, 26, 39) !important;
+  color: rgb(202, 202, 202)!important;
+}
